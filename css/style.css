@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  /* background-color: purple; */
+}
+
+/* page header */
+.nav_links > li,
+li > a {
+  font-weight: 500;
+  font-size: 2.5vh;
+  text-decoratfont-family: 'Roboto', sans-serif;
+  ion: none;
+  color: white;
+}
+
+.main_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eaeaea;
+  border-bottom: solid 2px #ccc;
+}
+
+.nav_links {
+  display: flex;
+  list-style: none;
+  padding-right: 5%;
+}
+
+.nav_links li {
+  padding: 0 30px;
+}
+
+.nav_links li a:hover {
+  color: purple;
+}
+.logo_wrapper {
+  position: relative;
+  padding: 10px;
+}
+
+.logo_wrapper img {
+  width: 50%;
+  height: auto;
+}
+
+/* End of Header  */
+
+/* Main Section  */
+.container {
+  width: 90%;
+  box-sizing: border-box;
+  margin: auto;
+  position: relative;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+main {
+  background-color: rgb(230, 230, 230);
+}
+.card {
+  width: 25%;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+  /* transition: 0.3s; */
+}
+.heading h1 {
+  font-family: 'Roboto', sans-serif;
+  color: red;
+  /* padding: 5px 0px 15px 0px; */
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 15px 0px 15px 0px;
+}
+
+.heading a,
+p {
+  text-decoration: none;
+  color: black;
+  align-content: space-between;
+  padding: 35px 0px 15px 0px;
+}
+.card-header {
+  text-align: center;
+  padding: 50px 10px;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  color: #fff;
+}
+.card-body {
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 18px;
+  position: relative;
+}
+.card-body .btn,
+.star {
+  display: block;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  /* margin-top: 30px; */
+  text-decoration: none;
+  padding: 10px 5px;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+.card-image {
+  position: relative;
+  width: 100%;
+}
+
+.star-card-image {
+  position: relative;
+  width: 50%;
+}
